@@ -1,0 +1,288 @@
+html {
+	margin:0; /* resets */
+	padding:0;
+	height: 101%;
+}
+
+body {
+    font: 100%/1.2em Myriad pro, Georgia, sans-serif;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+	text-align: left;
+	max-width: 960px;
+	vertical-align: baseline;
+	background: #d9d9d9;
+}
+
+#wrapper {
+	max-width: 960px;
+	min-width: 300px;
+	overflow: hidden;
+}
+
+#content {
+	overflow: hidden;
+}
+
+div {
+	display: block;
+}
+
+#main {
+	clear: left;
+	width: 69%;
+	position: relative;
+	margin-bottom: 2em;
+	margin-left: 0.1em;
+	background: transparent;
+}
+
+#a_list {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	margin-top: 1em;
+	padding-top: 1em;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+}
+
+#users_list {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	margin-top: 1em;
+	padding-top: 1em;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+}
+
+#categories_list {
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	margin-top: 1em;
+	padding-top: 1em;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+}
+
+#grouplist {
+	width: 65%;
+	height: 100%;
+	float: left;
+	background: #558C89;
+	margin-top: 1.2em;
+	padding-top: 1em;
+}
+
+#thumbnail_image {
+	width: 35%;
+	float: left;
+	margin-left: 0.5em;
+}
+
+#desc_text {
+	margin: 0.5em;
+}
+
+#whatson_bg, #grouplist_bg {
+	background: #fff;
+	height: 100%;
+}
+
+#whatson  h2, #grouplist  h2{
+	padding-top: 0;
+	padding-bottom: 0.8em;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-top: 0;
+	margin-bottom: -0.8em;
+	margin-left: 0;
+	font-size: 1.4em;
+}
+
+#grouplist  h2{
+	padding-left: 0.5em;
+}
+
+#whatson  h2 a, #grouplist h2 a{
+	margin-left: -0.6em;
+}
+
+.current_listing {
+	height: 100%;
+	width: 100%;
+}
+
+.clearfix {
+	display: block;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+}
+
+#grouplist li, #whatson li  {
+	list-style-type: none;
+	display: list-item;
+	margin-bottom: 0;
+}
+
+#grouplist li {
+	margin-top: 1em;
+	border-bottom: 0.1em solid #b9b9b9;
+}
+
+#grouplist  ul, #whatson  ul{
+	list-style-type: disc;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	display: block;
+}
+
+h4 a {
+	color: #74AFAD;
+}
+
+p a {
+	color: #74AFAD;
+}
+
+p {
+	color: #828282;
+	margin: 0;
+}
+
+#thumbnail, .list_thumbnail  {
+	float: left;
+	width: 45%;
+	margin-left: 0.4em;
+	margin-top: 0.6em;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	border: 0.1em solid #D9853B;
+	line-height:0
+}
+
+.list_thumbnail  {
+	margin-left: 0.7em;
+}
+
+#thumb_text, .list_text {
+	width: 49%;
+	float: right;
+}
+
+.list_text {
+	margin-right: 0.1em;
+}
+
+#thumb_text h3, .list_text h3 {
+    color: #74AFAD;
+	font-size: 1em;
+	margin-top: 0.5em;
+	margin-left: 0;
+	font-weight: bold;
+}
+
+.list_text h4 {
+	margin-top: 0.4em;
+}
+
+#rating {
+	color: #c2c2c2;
+	margin-top: -1em;
+	margin-bottom: 0;
+}
+
+#category_label {
+	color: #D9853B;
+	margin-top: 1.2em;
+	margin-bottom: 0.5em;
+}
+
+#category_field {
+	margin-left: 0.5em;
+	margin-top: 0em;
+	padding-bottom: 1em;
+}
+
+ul.current_listing li{
+	float: left;
+	width: 100%;
+}
+
+.clearfix:before, .clearfix:after {  
+    content: " ";  
+    display: table;  
+}  
+.clearfix:after {  
+    clear: both;  
+}  
+.clearfix {  
+    *zoom: 1;  
+} 
+
+a {
+	text-decoration: none;
+	color: #828282;
+}
+
+h1 {
+	display: block;
+	font-weight: normal;
+    color: #fff;
+    font-size: 1.75em; /* 28px */
+	line-height: 1;
+}
+
+h2 {
+    color: #828282;
+	font-weight: normal;
+    font-size: 1.5em; /* 24px */
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0.5em;
+}
+
+h3 {
+    color: #828282;
+	font-weight: normal;
+    font-size: 1.25em;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	display: block;
+	margin-left: 0.5em;
+}
+
+h4 {
+    color: #828282;
+	font-weight: normal;
+    font-size: 0.85em;
+	padding-top: 0px;
+	padding-right: 0.5em;
+	padding-left: 0px;
+	display: block;
+}
+
+h5 {
+    color: #828282;
+	font-weight: normal;
+    font-size: 0.5em;
+	padding-top: 0px;
+	padding-left: 0px;
+	display: block;
+}
+
+#grouplist h1 {
+	margin-left: 0.5em;
+}
