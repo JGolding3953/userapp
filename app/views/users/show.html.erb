@@ -11,7 +11,7 @@
 <p><strong>Email:</strong> <%= @user.email %></p>
 <% if can? :manage, User %>
 	<p><strong>Type:</strong>
-	<% if @user.role_ids.include?(1) %>
+	<% if @user.role_ids.include?(2) %>
  		Admin</p>
 	<% else %>
 		User</p>
