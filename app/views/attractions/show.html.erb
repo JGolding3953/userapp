@@ -15,7 +15,7 @@
 			<h3><%= @attraction.summary %></h3>
 			<p><%= @attraction.description %></p>
 			<div id="detailWeb">
-				<h4>For more details visit:  <%=h link_to @attraction.website %> </h4>
+				<h4>For more details visit:  <a href= <%= @attraction.website %>><%= @attraction.website %></a></h4>
 			</div>
 		</div>
 	</div>
