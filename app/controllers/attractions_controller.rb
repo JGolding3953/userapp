@@ -1,4 +1,5 @@
 class AttractionsController < ApplicationController
+  load_and_authorize_resource
 
 	def index
 		@attractions = Attraction.all
