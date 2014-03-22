@@ -4,7 +4,7 @@ class CreateAttractions < ActiveRecord::Migration
       t.string :name
       t.string :summary
       t.string :description
-      t.integer :category
+      t.integer :category_id
       t.string :area
       t.string :rating
       t.string :website
