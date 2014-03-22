@@ -7,11 +7,16 @@ class Ability
     can :create, User
     can :read, Attraction
     can :read, Category
-      can :manage, :all
 
     if user.has_role? :admin
       can :manage, :all
     end
     
- end
+    if user.has_role? :user
+      can [:read, :update], User do |account|
+        account.email == user.email
+      end
+      cannot :create, User
+    end
+  end
 end
