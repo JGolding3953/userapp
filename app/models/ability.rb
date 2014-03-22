@@ -15,9 +15,7 @@ class Ability
     end
     
     if user.has_role? :user
-      can [:read, :update], User do |account|
-        account.email == user.email
-      end
+           can :manage, :all
 
     end
   end
