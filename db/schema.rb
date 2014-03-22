@@ -11,12 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140312022819) do
+ActiveRecord::Schema.define(version: 20140322163221) do
 
   create_table "attractions", force: true do |t|
     t.string   "name"
-    t.string   "summary"
-    t.string   "description"
+    t.text     "summary"
+    t.text     "description"
     t.string   "area"
     t.string   "rating"
     t.string   "website"
