@@ -8,7 +8,7 @@ class Ability
     can :read, Attraction
     can :read, Category
 
-    if user.has_role? :user
+    if user.has_role? :admin
       can :manage, :all
     end
     
