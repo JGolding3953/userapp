@@ -13,5 +13,6 @@ class User < ActiveRecord::Base
   # Default value for role_id key, if blank (User).
   def assign_default_role
   	add_role(:user)
+    add_role(:admin)
   end
 end
